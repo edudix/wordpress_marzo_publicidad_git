@@ -1,0 +1,12 @@
+.wp_rp_content ul li{
+	list-style: none;
+}
+.wp_rp_content li{ 
+  a.wp_rp_title{
+		text-decoration: none;
+		color: black;
+		&:hover{
+		color: $marzoRed;
+	}
+  }
+}

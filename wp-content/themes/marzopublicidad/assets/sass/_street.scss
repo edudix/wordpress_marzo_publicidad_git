@@ -1,0 +1,11 @@
+.street{
+  margin:100px 0 0;
+  padding:20px 0;
+  background-image: url(assets/img/ciudad_marzo_2_640.jpg);
+  @media screen and(min-width: $tiny){
+    background: url(assets/img/ciudad_marzo_2_1024.jpg) center center;
+  }
+  @media screen and(min-width: $small){
+    background: url(assets/img/ciudad_marzo_2.jpg) center center;
+  }
+}

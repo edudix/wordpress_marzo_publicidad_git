@@ -1,0 +1,22 @@
+.overlayer{
+  z-index: 100;
+  display: none;
+  -webkit-transition-delay: .3s;
+  -moz-transition-delay: .3s;
+  -ms-transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
+  padding-top:40%;
+  pointer-events: none;
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,.8);
+  color:white;
+  p{
+    margin:0;
+  }
+}
+.post .overlayer{
+  padding-top:55px;
+}

@@ -1,0 +1,17 @@
+.service-article:nth-child(odd) {
+	background-color: $lightestGray;
+}
+.service-article:nth-child(even) {
+	background-color: white;
+}
+.service-article{
+	padding:20px 0;
+}
+.service-article-title{
+	font-size:.8em;
+	font-weight: 100;
+}
+.service-article-title:before{
+	content : "#";
+	color: $marzoRed;
+}

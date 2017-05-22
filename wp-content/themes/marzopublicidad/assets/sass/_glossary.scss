@@ -1,0 +1,14 @@
+.glossary-menu-item, .glossary-item{
+  a{
+    color: $marzoRed;
+    &:hover{
+      color:black;
+    }
+  }
+}
+.atozmenu-off:hover{
+	background:none !important;
+}
+.glossary-item a:hover{
+	text-decoration:none;
+}

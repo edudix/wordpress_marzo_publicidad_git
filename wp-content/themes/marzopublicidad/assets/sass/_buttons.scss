@@ -1,0 +1,16 @@
+.button {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  border:none;
+  color: #ffffff;
+  font-size: 18px;
+  background: #da000f;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: black;
+  text-decoration: none;
+}

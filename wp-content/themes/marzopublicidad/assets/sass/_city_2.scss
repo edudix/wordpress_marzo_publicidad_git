@@ -1,0 +1,9 @@
+.city{
+  background-image: url(assets/img/ciudad_marzo_3_640.jpg);
+  @media screen and(min-width: $tiny){
+    background: url(assets/img/ciudad_marzo_3_1024.jpg) center center;
+  }
+  @media screen and(min-width: $small){
+    background: url(assets/img/ciudad_marzo_3.jpg) center center;
+  }
+}

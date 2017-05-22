@@ -1,0 +1,56 @@
+.blog, .search-results, .single{
+	.post{
+		a{
+			color: $marzoRed;
+			text-decoration:none;
+			&:hover{
+				color: black;
+			}
+		}
+		aside{
+			padding:15px 0 0;
+		}
+		.marzo_square{
+			float:left;
+			margin-right:15px;
+		}
+		h1{
+			font-weight: 100;
+			a{
+				color: black;
+				text-decoration: none;
+				&:hover{
+					color: $marzoRed;
+				}
+			}
+		}
+		margin-top:60px;
+	}
+}
+.primary-sidebar{
+	h2{
+		font-weight: 100;
+		line-height: 1;
+		margin-top: 0;
+	}
+	li{
+		list-style: none;
+	}
+}
+.single article, .primary-sidebar{
+	margin-top:60px;
+}
+.single aside{
+	padding:25px 0 0;
+	a{
+		color: $marzoRed;
+		text-decoration:none;
+		&:hover{
+			color: black;
+		}
+	}
+}
+.hero-image img{
+	width:100%;
+	height:auto;
+}

@@ -1,0 +1,9 @@
+.separator{
+  height:10px;
+  display:block;
+  width:100%;
+  background-color: $separatorColor;
+}
+.separator.red{
+  background-color: $marzoRed;
+}

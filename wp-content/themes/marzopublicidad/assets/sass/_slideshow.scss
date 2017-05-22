@@ -1,0 +1,44 @@
+.slideshow{
+	h3{
+		position:absolute;
+		text-transform: uppercase;
+		font-weight: 100;
+		font-size: 1.2em;
+		text-align:center;
+		width:100%;
+		top:250px;
+		@media screen and(max-width: $tiny){
+			top:200px;
+			font-size: 1em;
+		}
+	}
+	position:relative;
+	height:400px;
+	width: 100%;
+	text-align:center;
+	background-image: url(assets/img/acuarela_loop.jpg);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	.slide {
+		.tagText, .subtagText{
+			-moz-animation-duration: 1s;
+			-webkit-animation-duration: 1s;
+			animation-duration: 1s;
+		}
+		position:absolute;
+		width:100%;
+		top:170px;
+		h2{
+			font-weight: 100;
+			text-transform: uppercase;
+			margin:0;
+		}
+		h2 {
+			color: white;
+			font-size: 8rem;
+			@media screen and(max-width: $tiny){
+				font-size: 4rem;
+			}
+		}
+	}
+}

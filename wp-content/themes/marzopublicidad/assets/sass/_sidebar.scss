@@ -1,0 +1,30 @@
+#recent-posts-2{
+	list-style: none;
+	height: 100%;
+	width: 22em;
+}
+.widgettitle{
+	margin: .2em 0;
+}
+#recent-posts-2 ul{
+	height: 16em;
+	width: 20em;
+	margin: .5em 0;
+	padding: .5em 0.5em;
+	list-style: none;
+}
+#recent-posts-2 li{
+	padding: 0.5em 0;
+	border-top: .02em solid #B0B0B0;
+}
+#recent-posts-2 li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+#recent-posts-2 li:first-child{
+	border-top: none;
+}
+#recent-posts-2 li a:hover{
+	color: #DA000F;
+}

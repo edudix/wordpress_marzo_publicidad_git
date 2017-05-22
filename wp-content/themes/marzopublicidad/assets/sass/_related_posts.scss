@@ -1,0 +1,29 @@
+.related_post_title {
+
+}
+ul.related_post {
+	width:100%;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+ul.related_post li {
+	width:25% !important;
+	height:auto;
+	float:left;
+	padding:10px;
+}	
+ul.related_post li a {
+	text-decoration:none;
+}
+ul.related_post li img {
+	width:100%;
+	height:auto;
+}
+.wp_rp_content{
+	display:block !important;
+	overflow:hidden;
+}
+.wp_rp_footer{
+	display:none;
+}

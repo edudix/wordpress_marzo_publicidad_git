@@ -1,0 +1,28 @@
+.tagline{
+  height:500px;
+  @media screen and(max-width: $small){
+    height:250px;
+  }
+  color:white;
+  h1,h2{
+    font-weight: 100;
+    font-size: 12rem;
+    margin:0;
+    line-height: 1;
+    @media screen and(max-width: $small){
+      font-size: 8rem;
+    }
+    @media screen and(max-width: $tiny){
+      font-size: 3rem;
+    }
+  }
+  h1{
+    padding-top:125px;
+    @media screen and(max-width: $small){
+      padding-top:50px;
+    }
+    @media screen and(max-width: $tiny){
+      padding-top:80px;
+    }
+  }
+}
