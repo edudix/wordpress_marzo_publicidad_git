@@ -10,7 +10,7 @@
 			$mensaje = wordwrap($mensaje, 70, "\r\n");
 
 			// Enviarlo
-			mail('eorusco@marzomarketing.com,xiscoo@gmail.com', 'Mensaje desde la web de Marzo', $mensaje);
+			mail('eorusco@marzomarketing.com,mmartin@marzomarketing.com', 'Mensaje desde la web de Marzo', $mensaje);
 		 endif ?>
 	<?php endif; ?>
     <div class="breadcrumbs"><?php get_template_part('partials/breadcrumbs'); ?></div>
