@@ -16,19 +16,19 @@
 
 // ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
 /** El nombre de tu base de datos de WordPress */
-define('DB_NAME', 'marzo');
+define('DB_NAME', 'marzocomanmarzo1');
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', 'wordpress');
+define('DB_USER', 'marzocomanmarzo1');
 
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', 'password');
+define('DB_PASSWORD', 'Marzo2017');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
-define('DB_HOST', 'mariadb');
+define('DB_HOST', 'marzocomanmarzo1.mysql.db');
 
 /** Codificación de caracteres para la base de datos. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** Cotejamiento de la base de datos. No lo modifiques si tienes dudas. */
 define('DB_COLLATE', '');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('SECURE_AUTH_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('LOGGED_IN_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('NONCE_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('AUTH_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('SECURE_AUTH_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('LOGGED_IN_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('NONCE_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
+define('AUTH_KEY', '?LVNym5@M{quqq|U(d5 sQ0],JwPAEt=rPkD*IY(h)2b^KoaTYu.lV1kH%_u%G}$');
+define('SECURE_AUTH_KEY', 'ePXk+iIqAX$1F|T<M%RD|%{.3C9JHbF?2:.b|yi%8Elys/DWX*G`qGG^,=(Gtgpu');
+define('LOGGED_IN_KEY', 'dT8qf:hlYzH7E&j^fx64%H_aX70J+}M!j3NmlA+HT!O 3.6:BeL,:O.__<`DR4uS');
+define('NONCE_KEY', 'm>h-L5PPqpdJ8TO?9UB4zp1i>4yevi@49bHB@M#hyKyAW^?Xk`_MP[7jd1AW{N*1');
+define('AUTH_SALT', 'k3Oe)Gu?:Ew3GiG,BXol -p7?nucT$X4+y<^R}o}l9>_r,y;lvhEQ)?0P-8y(1O?');
+define('SECURE_AUTH_SALT', 'B#J,6WtsI 8H6Q|Q7t=61`($dIiL|Ko^p2Ga]6oYp0,(84sO9;@8K}9[QruIoL/r');
+define('LOGGED_IN_SALT', ' 7tm--B^pYi(X${m-pNQF*-0,II/#sA?YT`j*Q@lQ&IYwG(ql4MEmi!{fG{8nr`s');
+define('NONCE_SALT', 'A/b*@2!|z;Rv&d3T02*@~Qm*@Wei`z-B&/~`xbkKie)($-jMOI]E/{=qCt)&B]?Y');
 
 /**#@-*/
 
@@ -59,7 +59,7 @@ define('NONCE_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu fras
  * Cambia el prefijo si deseas instalar multiples blogs en una sola base de datos.
  * Emplea solo números, letras y guión bajo.
  */
-$table_prefix  = 'ab_';
+$table_prefix  = 'wp_';
 
 
 /**
