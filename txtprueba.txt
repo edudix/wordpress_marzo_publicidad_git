@@ -1,8 +1,0 @@
-3-Desactivamos la conexión a internet
-4-Después de eso, iniciamos el instalador Set-up.exe localizado en la carpeta “Instalar”
-5-Seleccionamos en el instalador “Iniciar sesión” y luego “Iniciar sesión más adelante”
-6-Una vez finalizada la instalación del programa lo iniciamos por primera vez y escogemos el modo de “Prueba 30 días”
-7-Lo cerramos
-8-Copiamos el archivo “amtlib.dll” localizado en la carpeta “Parche 64 Bits” o “Parche 32 Bits”
-9-Vamos a la carpeta donde se instaló el programa de Adobe y pegamos el archivo “amtlib.dll” reemplazando el original
-10-Click derecho en el archivo “amtlib.dll” recién pegado, luego “Propiedades” y nos aseguramos de que la casilla “Solo lectura” este activada.
