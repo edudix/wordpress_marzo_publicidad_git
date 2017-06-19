@@ -13,7 +13,7 @@
                     <p><?php _e('Más detalles', 'marzopublicidad')?></p>
                 </div>
                 <a class="proyecto" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-                    <?php echo the_post_thumbnail( 'medium_width' ); ?>
+					<img src="" data-src="<?php echo the_post_thumbnail_url( 'medium_width' ); ?>" > 
                 </a>
             </div>
         <?php endwhile; wp_reset_query(); ?>
