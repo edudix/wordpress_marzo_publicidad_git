@@ -16,6 +16,6 @@
     </article>
     <?php get_template_part('partials/street'); ?>
     <?php get_template_part('partials/nuestras_marcas'); ?>
-    <?php get_template_part('partials/ultimos_proyectos'); ?>
+    <?php /*get_template_part('partials/ultimos_proyectos');*/ ?>
 </main>
 <?php get_footer(); ?>
