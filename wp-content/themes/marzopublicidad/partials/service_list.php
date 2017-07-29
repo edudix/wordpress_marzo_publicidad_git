@@ -26,6 +26,8 @@
                         <li><?php _e( 'Publicitario', 'marzopublicidad' ); ?></li>
                         <li><?php _e( 'Punto de Venta', 'marzopublicidad' ); ?></li>
                         <li><?php _e( 'Packaging', 'marzopublicidad' ); ?></li>
+                        <li><?php _e( 'Cartelería', 'marzopublicidad' ); ?></li>
+                        <li><?php _e( 'Albúm cover', 'marzopublicidad' ); ?></li>
                     </ul>
             </ul>
         </div>
