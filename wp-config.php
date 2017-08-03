@@ -61,6 +61,9 @@ define('NONCE_SALT', 'A/b*@2!|z;Rv&d3T02*@~Qm*@Wei`z-B&/~`xbkKie)($-jMOI]E/{=qCt
  */
 $table_prefix  = 'wp_';
 
+/*Activar o desacitvar atualizaciones automaticas de WP. True activar actualizaciones false desactivar. */
+
+define( 'WP_AUTO_UPDATE_CORE', false);
 
 /**
  * Para desarrolladores: modo debug de WordPress.
