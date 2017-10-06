@@ -1,12 +1,30 @@
 .wp_rp_content ul li{
 	list-style: none;
 }
-.wp_rp_content li{ 
+.wp_rp_content li{
   a.wp_rp_title{
 		text-decoration: none;
 		color: black;
+			&:hover{
+			color: $marzoRed;
+		}
+  }
+}
+div.dc-social a{
+	i{
+	color: $lightGray;
+	font-size: 25px;
+	padding: 3px;
 		&:hover{
 		color: $marzoRed;
+		}
 	}
-  }
+}
+@media only screen and (min-width: 768px){
+	div.dc-social{
+		text-align: right;
+	}
+	div.dc-social a.dc-whatsapp{
+		display: none;
+	}
 }

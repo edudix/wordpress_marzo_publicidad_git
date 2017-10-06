@@ -12,18 +12,17 @@
                         <figure class="hero-image">
                             <?php the_post_thumbnail( 'full_width' ); ?>
                         </figure>
-                        <aside><i class="marzo_square"></i> <?php _e('Por:', 'marzopublicidad') ?> <?php the_author(); ?> | <?php _e('Categoría:', 'marzopublicidad') ?> <?php the_category( ', ' ); ?></aside>
+                        <aside id="single">
+                          <i class="marzo_square"></i> <?php _e('Por:', 'marzopublicidad') ?> <?php the_author(); ?> | <?php _e('Categoría:', 'marzopublicidad') ?> <?php the_category( ', ' ); ?>
+                        </aside>
                         <hr>
                         <?php the_content(); ?>
                     </article>
-                    <hr>
                 <?php endwhile; ?>
-
                     <div class="navigation">
                         <div class="next-posts"><?php next_posts_link(); ?></div>
                         <div class="prev-posts"><?php previous_posts_link(); ?></div>
                     </div>
-
                 <?php endif; ?>
             </div>
         </div>

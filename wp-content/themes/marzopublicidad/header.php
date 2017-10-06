@@ -17,14 +17,14 @@
 	<meta property="og:url" content="<?php echo 'http://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]; ?>">
 	<meta property="og:title" content="<?php is_front_page() ? bloginfo('name') : wp_title(''); ?>">
 	<meta property="og:description" content="<?php if ( is_single() ) {single_post_title('', true); } else {bloginfo('description'); } ?>">
-	<meta property="og:image" content="#">
+	<meta property="og:image" content="<?php echo get_the_post_thumbnail_url('', 'thumbnail'); ?>">
 	<meta name="twitter:site" content="@marzopublicidad">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:url" content="<?php echo 'http://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]; ?>">
 	<meta name="twitter:title" content="<?php is_front_page() ? bloginfo('name') : wp_title(''); ?>">
 	<meta name="twitter:description" content="<?php if ( is_single() ) {single_post_title('', true); } else {bloginfo('description'); } ?>">
-	<meta name="twitter:image" content="">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/style.css">
+	<meta name="twitter:image" content="#">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/style.css">
 	<?php wp_head(); ?>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
