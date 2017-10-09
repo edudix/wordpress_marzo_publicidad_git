@@ -14,7 +14,7 @@ function dc_social_sharing_buttons($content)
 		$urlArticulo 	= urlencode(get_permalink());
  		$titleArticulo 	= str_replace( ' ', '%20', get_the_title());
 		// Urls
-		$shareURL	= urlencode(get_permalink());
+		$shareURL	= 'http://marzo.com.es/comparte/';
 		$twitterURL	= 'https://twitter.com/intent/tweet?text='.$titleArticulo.'&amp;url='.$urlArticulo.'&amp;via=Marzo';
 		//$facebookURL= 'https://www.facebook.com/sharer/sharer.php?u='.$urlArticulo;
 		//$googleURL 	= 'https://plus.google.com/share?url='.$urlArticulo;
